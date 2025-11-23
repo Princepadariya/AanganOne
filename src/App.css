@@ -694,7 +694,7 @@
 
   /* Footer Mobile */
   .footer {
-    padding: 30px 0 20px;
+    padding: 20px 0 15px;
   }
 
   .footer .container {
@@ -703,36 +703,36 @@
 
   .footer-content {
     grid-template-columns: 1fr;
-    gap: 25px;
-    margin-bottom: 25px;
+    gap: 18px;
+    margin-bottom: 18px;
   }
 
   .footer-left-section,
   .footer-right-section {
-    gap: 20px;
+    gap: 15px;
   }
 
   .footer-brand h3 {
-    font-size: 24px;
-    margin-bottom: 15px;
+    font-size: 18px;
+    margin-bottom: 10px;
   }
 
   .footer-about h4,
   .footer-socials h4,
   .footer-navigation h4 {
-    font-size: 18px;
-    margin-bottom: 12px;
+    font-size: 14px;
+    margin-bottom: 8px;
   }
 
   .footer-about p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
   }
 
   .footer-socials,
   .footer-about,
   .footer-navigation {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
 
   .footer-socials {
@@ -750,12 +750,16 @@
     flex-wrap: wrap;
   }
 
+  .footer-nav a {
+    font-size: 14px !important;
+  }
+
   .footer-nav .bullet,
   .footer-nav span.bullet {
     display: inline-block !important;
     visibility: visible !important;
     color: #4A4A4A !important;
-    font-size: 14px !important;
+    font-size: 12px !important;
     margin: 0 2px !important;
     opacity: 1 !important;
     width: auto !important;
@@ -763,11 +767,15 @@
   }
 
   .footer-bottom {
-    padding-top: 20px;
-    gap: 10px;
+    padding-top: 15px;
+    gap: 8px;
   }
 
   .footer-bottom p {
+    font-size: 10px;
+  }
+
+  .social-links a {
     font-size: 12px;
   }
 }
@@ -2780,13 +2788,13 @@
   flex-wrap: wrap;
 }
 
-.footer-nav a {
-  color: #4A4A4A;
-  text-decoration: none;
-  font-size: 18px;
-  font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  transition: color 0.2s;
-}
+  .footer-nav a {
+    color: #4A4A4A;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    transition: color 0.2s;
+  }
 
 .footer-nav a:hover {
   color: #8A2BE2;
